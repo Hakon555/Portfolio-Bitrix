@@ -2,7 +2,7 @@
 if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 ?>
 
-<footer>
+			<footer>
 				<div class="footer-blocks">
 					<div class="block-1">
 						<h3>explore</h3>
@@ -59,13 +59,17 @@ if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 		
 		<!--For tabs-->
 		<script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/jquery/tabs/tabs.js"></script>
+		<?//$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH."/jquery/tabs/tabs.js" );?>
 
 		<!--For carousel-->
 		<script src="<?=SITE_TEMPLATE_PATH?>/jquery/carousel/carouselengine/amazingcarousel.js"></script>
 		<script src="<?=SITE_TEMPLATE_PATH?>/jquery/carousel/carouselengine/initcarousel-1.js"></script>
+		<?//$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH."/jquery/carousel/carouselengine/amazingcarousel.js");?>
+		<?//$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH."/jquery/carousel/carouselengine/initcarousel-1.js");?>
 		
 		<!--For Form Validate-->
 		<script src="<?=SITE_TEMPLATE_PATH?>/jquery/form_validate/form_validate.js"></script>
+		<?//$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH."/jquery/form_validate/form_validate.js" );?>
 
 	</body>
 </html>

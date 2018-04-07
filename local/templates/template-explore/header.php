@@ -9,16 +9,17 @@ IncludeTemplateLangFile(__FILE__);
 		<?$APPLICATION->ShowHead()?>
 		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
 		<title><?$APPLICATION->ShowTitle()?></title>
-		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+		<?$APPLICATION->SetAdditionalCSS("https://fonts.googleapis.com/css?family=Roboto:300,400,700", true);?>
 		
 		<link rel="shortcut icon" type="image/x-icon" href="<?=SITE_TEMPLATE_PATH?>/favicon.ico"
 		
 		<!--For carousel-->
 		<meta name="viewport" content="width=device-width">
-		<link rel="stylesheet" type="text/css" href="<?=SITE_TEMPLATE_PATH?>/jquery/carousel/carouselengine/initcarousel-1.css">	
+		<?$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/jquery/carousel/carouselengine/initcarousel-1.css", true);?>
 		
 		<!--For Form Validate-->
-		<link rel="stylesheet" type="text/css" href="<?=SITE_TEMPLATE_PATH?>/jquery/form_validate/form_validate.css">
+		<?$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/jquery/form_validate/form_validate.css", true);?>
+		
 	</head>
 	<body class="body-explore">
 		<?$APPLICATION->ShowPanel();?>
