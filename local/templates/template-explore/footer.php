@@ -54,22 +54,7 @@ if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 			</footer>
 		</div>
 		
-		<!--JQuery-->
-		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-		
-		<!--For tabs-->
-		<script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/jquery/tabs/tabs.js"></script>
-		<?//$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH."/jquery/tabs/tabs.js" );?>
-
 		<!--For carousel-->
-		<script src="<?=SITE_TEMPLATE_PATH?>/jquery/carousel/carouselengine/amazingcarousel.js"></script>
 		<script src="<?=SITE_TEMPLATE_PATH?>/jquery/carousel/carouselengine/initcarousel-1.js"></script>
-		<?//$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH."/jquery/carousel/carouselengine/amazingcarousel.js");?>
-		<?//$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH."/jquery/carousel/carouselengine/initcarousel-1.js");?>
-		
-		<!--For Form Validate-->
-		<script src="<?=SITE_TEMPLATE_PATH?>/jquery/form_validate/form_validate.js"></script>
-		<?//$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH."/jquery/form_validate/form_validate.js" );?>
-
 	</body>
 </html>

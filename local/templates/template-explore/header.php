@@ -9,16 +9,24 @@ IncludeTemplateLangFile(__FILE__);
 		<?$APPLICATION->ShowHead()?>
 		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
 		<title><?$APPLICATION->ShowTitle()?></title>
-		<?$APPLICATION->SetAdditionalCSS("https://fonts.googleapis.com/css?family=Roboto:300,400,700", true);?>
+		<?$APPLICATION->SetAdditionalCSS("https://fonts.googleapis.com/css?family=Roboto:300,400,700");?>
 		
 		<link rel="shortcut icon" type="image/x-icon" href="<?=SITE_TEMPLATE_PATH?>/favicon.ico"
 		
+		<!--JQuery-->
+		<?$APPLICATION->AddHeadScript("https://code.jquery.com/jquery-3.3.1.min.js");?>
+		
+		<!--For tabs-->
+		<?$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH."/jquery/tabs/tabs.js");?>
+		
 		<!--For carousel-->
-		<meta name="viewport" content="width=device-width">
-		<?$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/jquery/carousel/carouselengine/initcarousel-1.css", true);?>
+		<?$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/jquery/carousel/carouselengine/initcarousel-1.css");?>
+		<?$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH."/jquery/carousel/carouselengine/amazingcarousel.js");?>
+		<?//$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH."/jquery/carousel/carouselengine/initcarousel-1.js");?>
 		
 		<!--For Form Validate-->
-		<?$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/jquery/form_validate/form_validate.css", true);?>
+		<?$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/jquery/form_validate/form_validate.css");?>
+		<?$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH."/jquery/form_validate/form_validate.js" );?>
 		
 	</head>
 	<body class="body-explore">
