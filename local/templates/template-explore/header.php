@@ -1,6 +1,7 @@
 <?
 if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 IncludeTemplateLangFile(__FILE__);
+use Bitrix\Main\Page\Asset;
 ?>
 
 <!doctype html>
@@ -9,16 +10,25 @@ IncludeTemplateLangFile(__FILE__);
 		<?$APPLICATION->ShowHead()?>
 		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
 		<title><?$APPLICATION->ShowTitle()?></title>
-		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+		<?$APPLICATION->SetAdditionalCSS("https://fonts.googleapis.com/css?family=Roboto:300,400,700");?>
 		
 		<link rel="shortcut icon" type="image/x-icon" href="<?=SITE_TEMPLATE_PATH?>/favicon.ico"
 		
+		<!--JQuery-->
+		<?Asset::getInstance()->addJs("https://code.jquery.com/jquery-3.3.1.min.js");?>
+		
+		<!--For tabs-->
+		<?Asset::getInstance()->addJs(SITE_TEMPLATE_PATH."/jquery/tabs/tabs.js");?>
+		
 		<!--For carousel-->
-		<meta name="viewport" content="width=device-width">
-		<link rel="stylesheet" type="text/css" href="<?=SITE_TEMPLATE_PATH?>/jquery/carousel/carouselengine/initcarousel-1.css">	
+		<?$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/jquery/carousel/carouselengine/initcarousel-1.css");
+		Asset::getInstance()->addJs(SITE_TEMPLATE_PATH."/jquery/carousel/carouselengine/amazingcarousel.js");
+		//Asset::getInstance()->addJs(SITE_TEMPLATE_PATH."/jquery/carousel/carouselengine/initcarousel-1.js");?>
 		
 		<!--For Form Validate-->
-		<link rel="stylesheet" type="text/css" href="<?=SITE_TEMPLATE_PATH?>/jquery/form_validate/form_validate.css">
+		<?$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/jquery/form_validate/form_validate.css");
+		Asset::getInstance()->addJs(SITE_TEMPLATE_PATH."/jquery/form_validate/form_validate.js");?>
+		
 	</head>
 	<body class="body-explore">
 		<?$APPLICATION->ShowPanel();?>
