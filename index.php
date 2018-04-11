@@ -8,7 +8,7 @@ $APPLICATION->SetTitle("");
 	<div class="featured-items">
 		<h2>FEATURED ITEMS</h2>
 		<p>Let's see featured items!</p>
-		
+
 		<div class="amazingcarousel-container-1">
 			<div id="amazingcarousel-1">
 				<div class="amazingcarousel-list-container">
@@ -122,25 +122,25 @@ $APPLICATION->SetTitle("");
 							</div>
 						</li>
 					</ul>
-					
+
 				</div>
-				
+
 				<div class="amazingcarousel-nav"></div>
 			</div>
 		</div>
 	</div>
-	
+
 	<div class="products-col">
 		<h2>PRODUCTS COLLECTIONS</h2>
 		<p>Check out popular products in our shop!</p>
-		
+
 		<div class="products-menu">
 			<p class="button-all chosen-prod-cat">ALL</p>
 			<p class="button-mens">MENS</p>
 			<p class="button-womens">WOMENS</p>
 			<p class="button-kids">KIDS</p>
 		</div>
-		
+
 		<div class="products-area products-area-all choosen-products-area">
 			<div class="products">
 				<img src="<?=SITE_TEMPLATE_PATH?>/images/product1.jpg" alt="">
@@ -149,7 +149,7 @@ $APPLICATION->SetTitle("");
 				<p class="price">$28</p>
 				<div class="ad-to-cart-button">
 					<p>ADD TO CART</p>
-				</div>	
+				</div>
 			</div>
 			<div class="products">
 				<img src="<?=SITE_TEMPLATE_PATH?>/images/product2.jpg" alt="">
@@ -159,7 +159,7 @@ $APPLICATION->SetTitle("");
 				<div class="ad-to-cart">
 					<div class="ad-to-cart-button">
 						<p>ADD TO CART</p>
-					</div>	
+					</div>
 				</div>
 			</div>
 			<div class="products">
@@ -170,7 +170,7 @@ $APPLICATION->SetTitle("");
 				<div class="ad-to-cart">
 					<div class="ad-to-cart-button">
 						<p>ADD TO CART</p>
-					</div>	
+					</div>
 				</div>
 			</div>
 			<div class="products">
@@ -181,7 +181,7 @@ $APPLICATION->SetTitle("");
 				<div class="ad-to-cart">
 					<div class="ad-to-cart-button">
 						<p>ADD TO CART</p>
-					</div>	
+					</div>
 				</div>
 			</div>
 			<div class="products">
@@ -192,7 +192,7 @@ $APPLICATION->SetTitle("");
 				<div class="ad-to-cart">
 					<div class="ad-to-cart-button">
 						<p>ADD TO CART</p>
-					</div>	
+					</div>
 				</div>
 			</div>
 			<div class="products">
@@ -203,10 +203,10 @@ $APPLICATION->SetTitle("");
 				<div class="ad-to-cart">
 					<div class="ad-to-cart-button">
 						<p>ADD TO CART</p>
-					</div>	
+					</div>
 				</div>
 			</div>
-		</div>	
+		</div>
 		<div class="products-area products-area-mens">
 			<div class="products">
 				<img src="<?=SITE_TEMPLATE_PATH?>/images/product5.jpg" alt="">
@@ -215,7 +215,7 @@ $APPLICATION->SetTitle("");
 				<p class="price">$28</p>
 				<div class="ad-to-cart-button">
 					<p>ADD TO CART</p>
-				</div>	
+				</div>
 			</div>
 			<div class="products">
 				<img src="<?=SITE_TEMPLATE_PATH?>/images/product3.jpg" alt="">
@@ -225,7 +225,7 @@ $APPLICATION->SetTitle("");
 				<div class="ad-to-cart">
 					<div class="ad-to-cart-button">
 						<p>ADD TO CART</p>
-					</div>	
+					</div>
 				</div>
 			</div>
 			<div class="products">
@@ -236,7 +236,7 @@ $APPLICATION->SetTitle("");
 				<div class="ad-to-cart">
 					<div class="ad-to-cart-button">
 						<p>ADD TO CART</p>
-					</div>	
+					</div>
 				</div>
 			</div>
 			<div class="products">
@@ -247,7 +247,7 @@ $APPLICATION->SetTitle("");
 				<div class="ad-to-cart">
 					<div class="ad-to-cart-button">
 						<p>ADD TO CART</p>
-					</div>	
+					</div>
 				</div>
 			</div>
 			<div class="products">
@@ -258,7 +258,7 @@ $APPLICATION->SetTitle("");
 				<div class="ad-to-cart">
 					<div class="ad-to-cart-button">
 						<p>ADD TO CART</p>
-					</div>	
+					</div>
 				</div>
 			</div>
 			<div class="products">
@@ -269,10 +269,10 @@ $APPLICATION->SetTitle("");
 				<div class="ad-to-cart">
 					<div class="ad-to-cart-button">
 						<p>ADD TO CART</p>
-					</div>	
+					</div>
 				</div>
 			</div>
-		</div>	
+		</div>
 		<div class="products-area products-area-womens">
 			<div class="products">
 				<img src="<?=SITE_TEMPLATE_PATH?>/images/product5.jpg" alt="">
@@ -281,7 +281,7 @@ $APPLICATION->SetTitle("");
 				<p class="price">$28</p>
 				<div class="ad-to-cart-button">
 					<p>ADD TO CART</p>
-				</div>	
+				</div>
 			</div>
 			<div class="products">
 				<img src="<?=SITE_TEMPLATE_PATH?>/images/product2.jpg" alt="">
@@ -291,7 +291,7 @@ $APPLICATION->SetTitle("");
 				<div class="ad-to-cart">
 					<div class="ad-to-cart-button">
 						<p>ADD TO CART</p>
-					</div>	
+					</div>
 				</div>
 			</div>
 			<div class="products">
@@ -302,7 +302,7 @@ $APPLICATION->SetTitle("");
 				<div class="ad-to-cart">
 					<div class="ad-to-cart-button">
 						<p>ADD TO CART</p>
-					</div>	
+					</div>
 				</div>
 			</div>
 			<div class="products">
@@ -313,7 +313,7 @@ $APPLICATION->SetTitle("");
 				<div class="ad-to-cart">
 					<div class="ad-to-cart-button">
 						<p>ADD TO CART</p>
-					</div>	
+					</div>
 				</div>
 			</div>
 			<div class="products">
@@ -324,7 +324,7 @@ $APPLICATION->SetTitle("");
 				<div class="ad-to-cart">
 					<div class="ad-to-cart-button">
 						<p>ADD TO CART</p>
-					</div>	
+					</div>
 				</div>
 			</div>
 			<div class="products">
@@ -335,7 +335,7 @@ $APPLICATION->SetTitle("");
 				<div class="ad-to-cart">
 					<div class="ad-to-cart-button">
 						<p>ADD TO CART</p>
-					</div>	
+					</div>
 				</div>
 			</div>
 		</div>
@@ -347,7 +347,7 @@ $APPLICATION->SetTitle("");
 				<p class="price">$28</p>
 				<div class="ad-to-cart-button">
 					<p>ADD TO CART</p>
-				</div>	
+				</div>
 			</div>
 			<div class="products">
 				<img src="<?=SITE_TEMPLATE_PATH?>/images/product1.jpg" alt="">
@@ -357,7 +357,7 @@ $APPLICATION->SetTitle("");
 				<div class="ad-to-cart">
 					<div class="ad-to-cart-button">
 						<p>ADD TO CART</p>
-					</div>	
+					</div>
 				</div>
 			</div>
 			<div class="products">
@@ -368,7 +368,7 @@ $APPLICATION->SetTitle("");
 				<div class="ad-to-cart">
 					<div class="ad-to-cart-button">
 						<p>ADD TO CART</p>
-					</div>	
+					</div>
 				</div>
 			</div>
 			<div class="products">
@@ -379,7 +379,7 @@ $APPLICATION->SetTitle("");
 				<div class="ad-to-cart">
 					<div class="ad-to-cart-button">
 						<p>ADD TO CART</p>
-					</div>	
+					</div>
 				</div>
 			</div>
 			<div class="products">
@@ -390,7 +390,7 @@ $APPLICATION->SetTitle("");
 				<div class="ad-to-cart">
 					<div class="ad-to-cart-button">
 						<p>ADD TO CART</p>
-					</div>	
+					</div>
 				</div>
 			</div>
 			<div class="products">
@@ -401,11 +401,11 @@ $APPLICATION->SetTitle("");
 				<div class="ad-to-cart">
 					<div class="ad-to-cart-button">
 						<p>ADD TO CART</p>
-					</div>	
+					</div>
 				</div>
 			</div>
 		</div>
-		
+
 		<div class="more">
 			<p>MORE</p>
 		</div>
