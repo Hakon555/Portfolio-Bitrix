@@ -1,6 +1,7 @@
 <?
 if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 IncludeTemplateLangFile(__FILE__);
+use Bitrix\Main\Page\Asset;
 ?>
 
 <!doctype html>
@@ -14,19 +15,19 @@ IncludeTemplateLangFile(__FILE__);
 		<link rel="shortcut icon" type="image/x-icon" href="<?=SITE_TEMPLATE_PATH?>/favicon.ico"
 		
 		<!--JQuery-->
-		<?$APPLICATION->AddHeadScript("https://code.jquery.com/jquery-3.3.1.min.js");?>
+		<?Asset::getInstance()->addJs("https://code.jquery.com/jquery-3.3.1.min.js");?>
 		
 		<!--For tabs-->
-		<?$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH."/jquery/tabs/tabs.js");?>
+		<?Asset::getInstance()->addJs(SITE_TEMPLATE_PATH."/jquery/tabs/tabs.js");?>
 		
 		<!--For carousel-->
-		<?$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/jquery/carousel/carouselengine/initcarousel-1.css");?>
-		<?$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH."/jquery/carousel/carouselengine/amazingcarousel.js");?>
-		<?//$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH."/jquery/carousel/carouselengine/initcarousel-1.js");?>
+		<?$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/jquery/carousel/carouselengine/initcarousel-1.css");
+		Asset::getInstance()->addJs(SITE_TEMPLATE_PATH."/jquery/carousel/carouselengine/amazingcarousel.js");
+		//Asset::getInstance()->addJs(SITE_TEMPLATE_PATH."/jquery/carousel/carouselengine/initcarousel-1.js");?>
 		
 		<!--For Form Validate-->
-		<?$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/jquery/form_validate/form_validate.css");?>
-		<?$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH."/jquery/form_validate/form_validate.js" );?>
+		<?$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/jquery/form_validate/form_validate.css");
+		Asset::getInstance()->addJs(SITE_TEMPLATE_PATH."/jquery/form_validate/form_validate.js");?>
 		
 	</head>
 	<body class="body-explore">
