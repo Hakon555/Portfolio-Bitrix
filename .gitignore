@@ -1,5 +1,5 @@
 # Ignor bitrix
-bitrix
+/bitrix
 # Ignor upload
 upload
 # Ignor .idea
