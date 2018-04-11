@@ -16,10 +16,10 @@ foreach($arResult as $arItem):?>
 	<?if ($arItem["IS_PARENT"]):?>
 
 		<?if ($arItem["DEPTH_LEVEL"] == 1):?>
-			<li><a href="<?=$arItem["LINK"]?>"><?=$arItem["TEXT"]?></a>
+			<li class="<?if ($arItem["SELECTED"]):?>active<?endif?>"><a href="<?=$arItem["LINK"]?>"><?=$arItem["TEXT"]?></a>
 				<ul>
 		<?else:?>
-			<li><a href="<?=$arItem["LINK"]?>"><?=$arItem["TEXT"]?></a>
+			<li class="<?if ($arItem["SELECTED"]):?>active<?endif?>"><a href="<?=$arItem["LINK"]?>"><?=$arItem["TEXT"]?></a>
 				<ul>
 		<?endif?>
 
@@ -28,9 +28,9 @@ foreach($arResult as $arItem):?>
 		<?if ($arItem["PERMISSION"] > "D"):?>
 
 			<?if ($arItem["DEPTH_LEVEL"] == 1):?>
-				<li><a href="<?=$arItem["LINK"]?>"><?=$arItem["TEXT"]?></a></li>
+				<li class="<?if ($arItem["SELECTED"]):?>active<?endif?>"><a href="<?=$arItem["LINK"]?>"><?=$arItem["TEXT"]?></a></li>
 			<?else:?>
-				<li><a href="<?=$arItem["LINK"]?>"><?=$arItem["TEXT"]?></a></li>
+				<li class="<?if ($arItem["SELECTED"]):?>active<?endif?>"><a href="<?=$arItem["LINK"]?>"><?=$arItem["TEXT"]?></a></li>
 			<?endif?>
 
 		<?endif?>

@@ -79,9 +79,8 @@
 	margin: 0;
 }
 
-.top-menu li.active {
-	background: #29c5e6;
-	color: #fff;
+.top-menu li.active a{
+	color: #29c5e6;
 }
 
 .top-menu a {
