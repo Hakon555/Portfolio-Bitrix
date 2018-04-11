@@ -10,7 +10,7 @@
   "IBLOCK_ID" => "2", 
   "DEPTH_LEVEL" => "1", 
   "CACHE_TYPE" => "A", 
-  "CACHE_TIME" => "36000000" 
+  "CACHE_TIME" => "3600"
   ), 
 false 
 ); 
