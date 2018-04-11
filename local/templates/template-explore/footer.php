@@ -2,11 +2,19 @@
 if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 ?>
 
-<footer>
+			<footer>
 				<div class="footer-blocks">
 					<div class="block-1">
-						<h3>explore</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<?$APPLICATION->IncludeComponent(
+							"bitrix:main.include",
+							"",
+							Array(
+								"AREA_FILE_SHOW" => "file",
+								"AREA_FILE_SUFFIX" => "inc",
+								"EDIT_TEMPLATE" => "",
+								"PATH" => "/include/description.php"
+							)
+						);?>
 					</div>
 					<div class="block-2">
 						<h3>HELP</h3>
@@ -45,27 +53,22 @@ if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 				</div>
 				<hr>
 				<div class="footer-images">
-					<img src="<?=SITE_TEMPLATE_PATH?>/images/be_f.png" alt="">
-					<img src="<?=SITE_TEMPLATE_PATH?>/images/fb.png" alt="">
-					<img src="<?=SITE_TEMPLATE_PATH?>/images/tw.png" alt="">
-					<img src="<?=SITE_TEMPLATE_PATH?>/images/pt.png" alt="">
+					<?$APPLICATION->IncludeComponent(
+						"bitrix:main.include",
+						"",
+						Array(
+							"AREA_FILE_SHOW" => "file",
+							"AREA_FILE_SUFFIX" => "inc",
+							"EDIT_TEMPLATE" => "",
+							"PATH" => "/include/socnetworks.php"
+						)
+					);?>
 				</div>
 				<p class="copyright">&#169; Copyright 2015 explore All rights reserved</p>
 			</footer>
 		</div>
 		
-		<!--JQuery-->
-		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-		
-		<!--For tabs-->
-		<script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/jquery/tabs/tabs.js"></script>
-
 		<!--For carousel-->
-		<script src="<?=SITE_TEMPLATE_PATH?>/jquery/carousel/carouselengine/amazingcarousel.js"></script>
 		<script src="<?=SITE_TEMPLATE_PATH?>/jquery/carousel/carouselengine/initcarousel-1.js"></script>
-		
-		<!--For Form Validate-->
-		<script src="<?=SITE_TEMPLATE_PATH?>/jquery/form_validate/form_validate.js"></script>
-
 	</body>
 </html>
