@@ -5,8 +5,16 @@ if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 <footer>
 				<div class="footer-blocks">
 					<div class="block-1">
-						<h3>explore</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<?$APPLICATION->IncludeComponent(
+							"bitrix:main.include",
+							"",
+							Array(
+								"AREA_FILE_SHOW" => "file",
+								"AREA_FILE_SUFFIX" => "inc",
+								"EDIT_TEMPLATE" => "",
+								"PATH" => "/include/description.php"
+							)
+						);?>
 					</div>
 					<div class="block-2">
 						<h3>HELP</h3>
@@ -45,10 +53,16 @@ if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 				</div>
 				<hr>
 				<div class="footer-images">
-					<img src="<?=SITE_TEMPLATE_PATH?>/images/be_f.png" alt="">
-					<img src="<?=SITE_TEMPLATE_PATH?>/images/fb.png" alt="">
-					<img src="<?=SITE_TEMPLATE_PATH?>/images/tw.png" alt="">
-					<img src="<?=SITE_TEMPLATE_PATH?>/images/pt.png" alt="">
+					<?$APPLICATION->IncludeComponent(
+						"bitrix:main.include",
+						"",
+						Array(
+							"AREA_FILE_SHOW" => "file",
+							"AREA_FILE_SUFFIX" => "inc",
+							"EDIT_TEMPLATE" => "",
+							"PATH" => "/include/socnetworks.php"
+						)
+					);?>
 				</div>
 				<p class="copyright">&#169; Copyright 2015 explore All rights reserved</p>
 			</footer>
