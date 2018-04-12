@@ -27,7 +27,7 @@ if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
                             "MENU_CACHE_TIME" => "3600",	// Время кеширования (сек.)
                             "MENU_CACHE_TYPE" => "N",	// Тип кеширования
                             "MENU_CACHE_USE_GROUPS" => "Y",	// Учитывать права доступа
-                            "ROOT_MENU_TYPE" => "newbottomHelp",	// Тип меню для первого уровня
+                            "ROOT_MENU_TYPE" => "bottomHelp",	// Тип меню для первого уровня
                             "USE_EXT" => "N",	// Подключать файлы с именами вида .тип_меню.menu_ext.php
                             "COMPONENT_TEMPLATE" => "new_bottom_menu"
                         ),
@@ -45,7 +45,7 @@ if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
                             "MENU_CACHE_TIME" => "3600",	// Время кеширования (сек.)
                             "MENU_CACHE_TYPE" => "N",	// Тип кеширования
                             "MENU_CACHE_USE_GROUPS" => "Y",	// Учитывать права доступа
-                            "ROOT_MENU_TYPE" => "newbottomFollow",	// Тип меню для первого уровня
+                            "ROOT_MENU_TYPE" => "bottomFollow",	// Тип меню для первого уровня
                             "USE_EXT" => "N",	// Подключать файлы с именами вида .тип_меню.menu_ext.php
                             "COMPONENT_TEMPLATE" => "new_bottom_menu"
                         ),
@@ -63,7 +63,7 @@ if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
                             "MENU_CACHE_TIME" => "3600",	// Время кеширования (сек.)
                             "MENU_CACHE_TYPE" => "N",	// Тип кеширования
                             "MENU_CACHE_USE_GROUPS" => "Y",	// Учитывать права доступа
-                            "ROOT_MENU_TYPE" => "newbottomExplore",	// Тип меню для первого уровня
+                            "ROOT_MENU_TYPE" => "bottomExplore",	// Тип меню для первого уровня
                             "USE_EXT" => "N",	// Подключать файлы с именами вида .тип_меню.menu_ext.php
                             "COMPONENT_TEMPLATE" => "new_bottom_menu"
                         ),
