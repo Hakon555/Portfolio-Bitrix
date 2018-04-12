@@ -1,49 +1,49 @@
 <div class="bx-s-info">
-	<div class="bx-block-title">Полезная информация</div>
+	<div class="bx-block-title">РџРѕР»РµР·РЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ</div>
 
 	<a href="/about/" class="bx-s-info-block">
 		<div class="bx-s-info-title">
 			<div class="bx-s-info-titleicon"><i class="fa fa-shopping-cart"></i></div>
-			<div class="bx-s-info-titletext">О магазине</div>
+			<div class="bx-s-info-titletext">Рћ РјР°РіР°Р·РёРЅРµ</div>
 		</div>
 		<div class="bx-s-info-content">
-			Узнайте больше о нашем магазине: кто мы, наши клиенты и почему они выбрали именно нас. Наши контакты и реквизиты.
+			РЈР·РЅР°Р№С‚Рµ Р±РѕР»СЊС€Рµ Рѕ РЅР°С€РµРј РјР°РіР°Р·РёРЅРµ: РєС‚Рѕ РјС‹, РЅР°С€Рё РєР»РёРµРЅС‚С‹ Рё РїРѕС‡РµРјСѓ РѕРЅРё РІС‹Р±СЂР°Р»Рё РёРјРµРЅРЅРѕ РЅР°СЃ. РќР°С€Рё РєРѕРЅС‚Р°РєС‚С‹ Рё СЂРµРєРІРёР·РёС‚С‹.
 		</div>
 	</a>
 	<a href="/about/delivery/" class="bx-s-info-block">
 		<div class="bx-s-info-title">
 			<div class="bx-s-info-titleicon"><i class="fa fa-truck"></i></div>
-			<div class="bx-s-info-titletext">Доставка</div>
+			<div class="bx-s-info-titletext">Р”РѕСЃС‚Р°РІРєР°</div>
 		</div>
 		<div class="bx-s-info-content">
-			Доставим ваш заказ в любой регион России, в удобное время и день. Работаем для вас, без выходных.
+			Р”РѕСЃС‚Р°РІРёРј РІР°С€ Р·Р°РєР°Р· РІ Р»СЋР±РѕР№ СЂРµРіРёРѕРЅ Р РѕСЃСЃРёРё, РІ СѓРґРѕР±РЅРѕРµ РІСЂРµРјСЏ Рё РґРµРЅСЊ. Р Р°Р±РѕС‚Р°РµРј РґР»СЏ РІР°СЃ, Р±РµР· РІС‹С…РѕРґРЅС‹С….
 		</div>
 	</a>
 	<a href="/about/guaranty/" class="bx-s-info-block">
 		<div class="bx-s-info-title">
 			<div class="bx-s-info-titleicon"><i class="fa fa-thumbs-up"></i></div>
-			<div class="bx-s-info-titletext">Мы гарантируем</div>
+			<div class="bx-s-info-titletext">РњС‹ РіР°СЂР°РЅС‚РёСЂСѓРµРј</div>
 		</div>
 		<div class="bx-s-info-content">
-			Мы гордимся безупречной репутацией нашего магазина. Если товар не устроит вас, вы всегда сможете вернуть деньги.
+			РњС‹ РіРѕСЂРґРёРјСЃСЏ Р±РµР·СѓРїСЂРµС‡РЅРѕР№ СЂРµРїСѓС‚Р°С†РёРµР№ РЅР°С€РµРіРѕ РјР°РіР°Р·РёРЅР°. Р•СЃР»Рё С‚РѕРІР°СЂ РЅРµ СѓСЃС‚СЂРѕРёС‚ РІР°СЃ, РІС‹ РІСЃРµРіРґР° СЃРјРѕР¶РµС‚Рµ РІРµСЂРЅСѓС‚СЊ РґРµРЅСЊРіРё.
 		</div>
 	</a>
 	<a href="/about/howto/" class="bx-s-info-block">
 		<div class="bx-s-info-title">
 			<div class="bx-s-info-titleicon"><i class="fa fa-question-circle"></i></div>
-			<div class="bx-s-info-titletext">Как купить</div>
+			<div class="bx-s-info-titletext">РљР°Рє РєСѓРїРёС‚СЊ</div>
 		</div>
 		<div class="bx-s-info-content">
-			Ваш первый заказ в интернет-магазине? Мы с радостью подскажем как сделать покупки в интернете простыми и удобными.
+			Р’Р°С€ РїРµСЂРІС‹Р№ Р·Р°РєР°Р· РІ РёРЅС‚РµСЂРЅРµС‚-РјР°РіР°Р·РёРЅРµ? РњС‹ СЃ СЂР°РґРѕСЃС‚СЊСЋ РїРѕРґСЃРєР°Р¶РµРј РєР°Рє СЃРґРµР»Р°С‚СЊ РїРѕРєСѓРїРєРё РІ РёРЅС‚РµСЂРЅРµС‚Рµ РїСЂРѕСЃС‚С‹РјРё Рё СѓРґРѕР±РЅС‹РјРё.
 		</div>
 	</a>
 	<a href="/about/contacts/" class="bx-s-info-block">
 		<div class="bx-s-info-title">
 			<div class="bx-s-info-titleicon"><i class="fa fa-info"></i></div>
-			<div class="bx-s-info-titletext">Всегда на связи</div>
+			<div class="bx-s-info-titletext">Р’СЃРµРіРґР° РЅР° СЃРІСЏР·Рё</div>
 		</div>
 		<div class="bx-s-info-content">
-			Связаться с нами можно любым удобным для вас способом: e-mail, телефон, социальные сети и мессенджеры.
+			РЎРІСЏР·Р°С‚СЊСЃСЏ СЃ РЅР°РјРё РјРѕР¶РЅРѕ Р»СЋР±С‹Рј СѓРґРѕР±РЅС‹Рј РґР»СЏ РІР°СЃ СЃРїРѕСЃРѕР±РѕРј: e-mail, С‚РµР»РµС„РѕРЅ, СЃРѕС†РёР°Р»СЊРЅС‹Рµ СЃРµС‚Рё Рё РјРµСЃСЃРµРЅРґР¶РµСЂС‹.
 		</div>
 	</a>
 </div>

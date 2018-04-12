@@ -37,15 +37,27 @@ use Bitrix\Main\Page\Asset;
 			<header>
 				<div class="first-line">
 					<div class="div-logo"><a href="/"><img class="logo" src="<?=SITE_TEMPLATE_PATH?>/images/logo.png" alt="logo"></a></div>
-					<div class="top-menu">
-						<ul>
-							<li><a href="/home/">Home</a></li>
-							<li><a href="/mens/">Mens</a></li>
-							<li><a href="/womens/">Womens</a></li>
-							<li><a href="/kids/">Kids</a></li>
-							<li><a href="/blog/">Blog</a></li>
-						</ul>
-					</div>
+					
+					<?$APPLICATION->IncludeComponent(
+						"bitrix:menu", 
+						"top_menu_catalog", 
+						array(
+							"ALLOW_MULTI_SELECT" => "N",
+							"CHILD_MENU_TYPE" => "left",
+							"DELAY" => "N",
+							"MAX_LEVEL" => "3",
+							"MENU_CACHE_GET_VARS" => array(
+							),
+							"MENU_CACHE_TIME" => "3600",
+							"MENU_CACHE_TYPE" => "N",
+							"MENU_CACHE_USE_GROUPS" => "Y",
+							"ROOT_MENU_TYPE" => "main",
+							"USE_EXT" => "Y",
+							"COMPONENT_TEMPLATE" => "top_menu_catalog"
+						),
+						false
+					);?>
+					
 					<div class="cart">
 						<a href="/cart/"><img src="<?=SITE_TEMPLATE_PATH?>/images/cart.png"></a>
 						<a class="cart-to-buy" href="/cart/">3</a>
