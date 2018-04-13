@@ -550,7 +550,7 @@
 .block-5 input:-moz-placeholder {
 	color: #d7dbe4;
 }
-.block-5 input[type="button"]{
+.block-5 input.SUsub-button{
 	width: 195px;
 	height: 33px;
 	margin: 0;
@@ -566,8 +566,8 @@
 	cursor: pointer;
 	text-align: center;
 }
-.block-5 input[type="button"]:focus {
-	outline: none; 
+.block-5 input.SUsub-button:focus {
+	outline: none;
 }
 .su-validate-message-email{
 	color: red;

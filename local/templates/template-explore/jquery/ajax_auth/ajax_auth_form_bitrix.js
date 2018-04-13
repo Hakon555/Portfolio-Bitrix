@@ -1,23 +1,40 @@
 $(document).ready(() => {
 
-console.log(111);
+//console.log(111);
 
-const $button = $('#SUsub');
-const $login = $('#SUemail').val();
-const $pass = $('#SUpass').val();
-//const $path = $('#path-path').val();
+//const $button = $('#SUsub');
 
+//let $login = $('#SUemail').val();
+//let $pass = $('#SUpass').val();
+//const $formArray = $("[name='$formName'] input");SUfor
+/*let $formArray = $("#SUform input");
+let $postArray = {};
+
+console.log($formArray.length);
+for(let i = 0; i <$formArray.length; i++){
+
+    $postArray[$($formArray[i]).attr('name')] = $($formArray[i]).attr('value');
+    for(key in $postArray) {
+        console.log(key + " = " + $postArray[key]);
+    }
+}*/
+
+
+//console.log($formName);
+//console.log($form);
+
+/*
 $button.on('click', ()=>{
+    let $formArray = $("#SUform input");
+    let $postArray = {};
+
+    for(let i = 0; i <$formArray.length; i++){
+        $postArray[$($formArray[i]).attr('name')] = $($formArray[i]).attr('value');
+    }
+
     $.post(
-        "/?login=yes",
-        {
-            USER_LOGIN: $login,
-            USER_PASSWORD: $pass,
-            backurl: "/",
-            AUTH_FORM: "Y",
-            TYPE: "AUTH",
-            Login: "Войти"
-        },
+        $formAction,
+        $postArray,
         onAjaxSuccess
     );
 
@@ -26,8 +43,8 @@ $button.on('click', ()=>{
 function onAjaxSuccess(data)
     {
         console.log(222);
-        alert(data);
+        //alert(data);
     }
-
+*/
 });
 

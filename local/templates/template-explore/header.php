@@ -8,7 +8,7 @@ use Bitrix\Main\Page\Asset;
 <html>
 	<head>
 		<?$APPLICATION->ShowHead()?>
-		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<meta http-equiv="Content-type" content="text/html;" charset="utf-8">
 		<title><?$APPLICATION->ShowTitle()?></title>
 		<?$APPLICATION->SetAdditionalCSS("https://fonts.googleapis.com/css?family=Roboto:300,400,700");?>
 		
