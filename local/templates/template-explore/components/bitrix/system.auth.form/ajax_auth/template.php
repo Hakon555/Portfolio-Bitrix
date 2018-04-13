@@ -22,10 +22,6 @@ if ($arResult['SHOW_ERRORS'] == 'Y' && $arResult['ERROR'])
     <p class="su-validate-message-email">enter email correctly</p>
     <p class="su-validate-message-pass">enter password</p>
 
-    <script type="text/javascript">
-        /*const $formName = "system_auth_form<?=$arResult["RND"];?>";
-        const $formAction = "<?=$arResult["AUTH_URL"]?>";*/
-    </script>
 <form id="SUform" name="system_auth_form<?=$arResult["RND"]?>" method="post" target="_top" action="<?=$arResult["AUTH_URL"]?>">
 
     <?if($arResult["BACKURL"] <> ''):?>
