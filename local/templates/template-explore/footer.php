@@ -40,7 +40,15 @@ if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 						<a href="/">Privacy</a>
 						<a href="/">Privacy</a>
 					</div>
-					<div class="block-5">
+                    <?$APPLICATION->IncludeComponent("bitrix:system.auth.form", "ajax_auth", Array(
+                        "FORGOT_PASSWORD_URL" => "",	// Страница забытого пароля
+                        "PROFILE_URL" => "",	// Страница профиля
+                        "REGISTER_URL" => "",	// Страница регистрации
+                        "SHOW_ERRORS" => "N",	// Показывать ошибки
+                    ),
+                        false
+                    );?>
+					<!--<div class="block-5">
 						<h3>SIGN UP</h3>
 						<p class="su-validate-message-email">enter email correctly</p>
 						<p class="su-validate-message-pass">enter password</p>
@@ -49,7 +57,7 @@ if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 							<input id="SUpass" type="password" name="pass" placeholder="password">
 							<input id="SUsub" type="button" value="Go!">
 						</form>
-					</div>
+					</div>-->
 				</div>
 				<hr>
 				<div class="footer-images">
