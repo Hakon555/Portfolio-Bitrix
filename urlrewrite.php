@@ -31,6 +31,12 @@ $arUrlRewrite = array(
 		"PATH" => "/store/index.php",
 	),
 	array(
+		"CONDITION" => "#^\\??(.*)#",
+		"RULE" => "&\$1",
+		"ID" => "bitrix:catalog.top",
+		"PATH" => "/test.php",
+	),
+	array(
 		"CONDITION" => "#^/news/#",
 		"RULE" => "",
 		"ID" => "bitrix:news",
