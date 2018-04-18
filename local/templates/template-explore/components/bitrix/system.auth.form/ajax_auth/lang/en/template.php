@@ -1,6 +1,6 @@
 <?
 $MESS["AUTH_LOGIN_BUTTON"] = "Login";
-$MESS["AUTH_LOGIN"] = "Login";
+$MESS["AUTH_EMAIL"] = "Email";
 $MESS["AUTH_PASSWORD"] = "Password";
 $MESS["AUTH_REMEMBER_ME"] = "Remember me on this computer";
 $MESS["AUTH_FORGOT_PASSWORD_2"] = "Forgot your password?";
@@ -21,4 +21,6 @@ $MESS["auth_form_comp_otp"] = "One-time password:";
 $MESS["auth_form_comp_otp_remember_title"] = "Remember one-time password on this computer";
 $MESS["auth_form_comp_otp_remember"] = "Remember password";
 $MESS["auth_form_comp_auth"] = "Log in";
+$MESS["LOGIN_ERROR"] = "Wrong Email or password";
+$MESS["LOGIN_PATTERN_ERROR"] = "Email must be like email@mail.ru";
 ?>

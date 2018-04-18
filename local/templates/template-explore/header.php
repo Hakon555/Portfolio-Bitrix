@@ -29,9 +29,6 @@ use Bitrix\Main\Page\Asset;
 		<?$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/jquery/form_validate/form_validate.css");
 		Asset::getInstance()->addJs(SITE_TEMPLATE_PATH."/jquery/form_validate/form_validate.js");?>
 
-        <!--For Ajax Authorization-->
-        <?Asset::getInstance()->addJs(SITE_TEMPLATE_PATH."/jquery/ajax_auth/ajax_auth_form_bitrix.js");?>
-		
 	</head>
 	<body class="body-explore">
 		<?$APPLICATION->ShowPanel();?>

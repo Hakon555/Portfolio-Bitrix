@@ -44,20 +44,10 @@ if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
                         "FORGOT_PASSWORD_URL" => "",	// Страница забытого пароля
                         "PROFILE_URL" => "",	// Страница профиля
                         "REGISTER_URL" => "",	// Страница регистрации
-                        "SHOW_ERRORS" => "N",	// Показывать ошибки
+                        "SHOW_ERRORS" => "Y",	// Показывать ошибки
                     ),
                         false
                     );?>
-					<!--<div class="block-5">
-						<h3>SIGN UP</h3>
-						<p class="su-validate-message-email">enter email correctly</p>
-						<p class="su-validate-message-pass">enter password</p>
-						<form name="sign-up" action="#" method="post">
-							<input id="SUemail" type="text" name="email" placeholder="duecreation@gmail.com">
-							<input id="SUpass" type="password" name="pass" placeholder="password">
-							<input id="SUsub" type="button" value="Go!">
-						</form>
-					</div>-->
 				</div>
 				<hr>
 				<div class="footer-images">
