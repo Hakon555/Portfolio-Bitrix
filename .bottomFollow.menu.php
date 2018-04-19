@@ -1,0 +1,44 @@
+<?
+$aMenuLinks = Array(
+    Array(
+        "Twitter",
+        "/",
+        Array(),
+        Array(
+        ),
+        ""
+    ),
+    Array(
+        "Facebook",
+        "/",
+        Array(),
+        Array(
+        ),
+        ""
+    ),
+    Array(
+        "Instagram",
+        "/",
+        Array(),
+        Array(
+        ),
+        ""
+    ),
+    Array(
+        "Pinterest",
+        "/",
+        Array(),
+        Array(
+        ),
+        ""
+    ),
+    Array(
+        "Behance",
+        "/",
+        Array(),
+        Array(
+        ),
+        ""
+    )
+);
+?>

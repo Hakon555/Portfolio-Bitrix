@@ -1,13 +1,13 @@
 <div class="bx-wt">
 	<div class="bx-wt-block">
-		<h3 class="bx-block-title">Почему Мы?</h3>
+		<h3 class="bx-block-title">РџРѕС‡РµРјСѓ РњС‹?</h3>
 		<ul>
-			<li><i class="fa fa-check"></i> Выполнили свыше 150 000 заказов</li>
-			<li><i class="fa fa-check"></i> Более 10 лет успешной работы</li>
-			<li><i class="fa fa-check"></i> Более 50 000 покупателей</li>
-			<li><i class="fa fa-check"></i> Контракты с домами мод</li>
-			<li><i class="fa fa-check"></i> Оригинальные модели </li>
-			<li><i class="fa fa-check"></i> Круглосуточная поддержка</li>
+			<li><i class="fa fa-check"></i> Р’С‹РїРѕР»РЅРёР»Рё СЃРІС‹С€Рµ 150 000 Р·Р°РєР°Р·РѕРІ</li>
+			<li><i class="fa fa-check"></i> Р‘РѕР»РµРµ 10 Р»РµС‚ СѓСЃРїРµС€РЅРѕР№ СЂР°Р±РѕС‚С‹</li>
+			<li><i class="fa fa-check"></i> Р‘РѕР»РµРµ 50 000 РїРѕРєСѓРїР°С‚РµР»РµР№</li>
+			<li><i class="fa fa-check"></i> РљРѕРЅС‚СЂР°РєС‚С‹ СЃ РґРѕРјР°РјРё РјРѕРґ</li>
+			<li><i class="fa fa-check"></i> РћСЂРёРіРёРЅР°Р»СЊРЅС‹Рµ РјРѕРґРµР»Рё </li>
+			<li><i class="fa fa-check"></i> РљСЂСѓРіР»РѕСЃСѓС‚РѕС‡РЅР°СЏ РїРѕРґРґРµСЂР¶РєР°</li>
 		</ul>
 	</div>
 </div>

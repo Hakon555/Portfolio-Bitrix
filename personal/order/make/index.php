@@ -1,6 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetTitle("Çàêàçû");
+$APPLICATION->SetTitle("Ð—Ð°ÐºÐ°Ð·Ñ‹");
 ?><?$APPLICATION->IncludeComponent("bitrix:sale.order.ajax", "", array(
 	"PAY_FROM_ACCOUNT" => "Y",
 	"COUNT_DELIVERY_TAX" => "N",

@@ -18,36 +18,66 @@ if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 					</div>
 					<div class="block-2">
 						<h3>HELP</h3>
-						<a href="/">Newsletter</a>
-						<a href="/">Blog</a>
-						<a href="/">Get paid</a>
-						<a href="/">Sign in</a>
-						<a href="/">Sign up</a>
+						<?$APPLICATION->IncludeComponent("bitrix:menu", "new_bottom_menu", Array(
+							"ALLOW_MULTI_SELECT" => "N",	// Разрешить несколько активных пунктов одновременно
+							"CHILD_MENU_TYPE" => "left",	// Тип меню для остальных уровней
+							"DELAY" => "N",	// Откладывать выполнение шаблона меню
+							"MAX_LEVEL" => "1",	// Уровень вложенности меню
+							"MENU_CACHE_GET_VARS" => "",	// Значимые переменные запроса
+							"MENU_CACHE_TIME" => "3600",	// Время кеширования (сек.)
+							"MENU_CACHE_TYPE" => "N",	// Тип кеширования
+							"MENU_CACHE_USE_GROUPS" => "Y",	// Учитывать права доступа
+							"ROOT_MENU_TYPE" => "bottomHelp",	// Тип меню для первого уровня
+							"USE_EXT" => "N",	// Подключать файлы с именами вида .тип_меню.menu_ext.php
+							"COMPONENT_TEMPLATE" => "new_bottom_menu"
+						),
+							false
+						);?>
 					</div>
 					<div class="block-3">
 						<h3>FOLLOW</h3>
-						<a href="/">Twitter</a>
-						<a href="/">Facebook</a>
-						<a href="/">Instagram</a>
-						<a href="/">Pinterest</a>
-						<a href="/">Behance</a>
+						<?$APPLICATION->IncludeComponent("bitrix:menu", "new_bottom_menu", Array(
+							"ALLOW_MULTI_SELECT" => "N",	// Разрешить несколько активных пунктов одновременно
+							"CHILD_MENU_TYPE" => "left",	// Тип меню для остальных уровней
+							"DELAY" => "N",	// Откладывать выполнение шаблона меню
+							"MAX_LEVEL" => "1",	// Уровень вложенности меню
+							"MENU_CACHE_GET_VARS" => "",	// Значимые переменные запроса
+							"MENU_CACHE_TIME" => "3600",	// Время кеширования (сек.)
+							"MENU_CACHE_TYPE" => "N",	// Тип кеширования
+							"MENU_CACHE_USE_GROUPS" => "Y",	// Учитывать права доступа
+							"ROOT_MENU_TYPE" => "bottomFollow",	// Тип меню для первого уровня
+							"USE_EXT" => "N",	// Подключать файлы с именами вида .тип_меню.menu_ext.php
+							"COMPONENT_TEMPLATE" => "new_bottom_menu"
+						),
+							false
+						);?>
 					</div>
 					<div class="block-4">
 						<h3>EXPLORE</h3>
-						<a href="/">Features</a>
-						<a href="/">Privacy</a>
-						<a href="/">Features</a>
-						<a href="/">Privacy</a>
-						<a href="/">Privacy</a>
+						<?$APPLICATION->IncludeComponent("bitrix:menu", "new_bottom_menu", Array(
+							"ALLOW_MULTI_SELECT" => "N",	// Разрешить несколько активных пунктов одновременно
+							"CHILD_MENU_TYPE" => "left",	// Тип меню для остальных уровней
+							"DELAY" => "N",	// Откладывать выполнение шаблона меню
+							"MAX_LEVEL" => "1",	// Уровень вложенности меню
+							"MENU_CACHE_GET_VARS" => "",	// Значимые переменные запроса
+							"MENU_CACHE_TIME" => "3600",	// Время кеширования (сек.)
+							"MENU_CACHE_TYPE" => "N",	// Тип кеширования
+							"MENU_CACHE_USE_GROUPS" => "Y",	// Учитывать права доступа
+							"ROOT_MENU_TYPE" => "bottomExplore",	// Тип меню для первого уровня
+							"USE_EXT" => "N",	// Подключать файлы с именами вида .тип_меню.menu_ext.php
+							"COMPONENT_TEMPLATE" => "new_bottom_menu"
+						),
+							false
+						);?>
 					</div>
-                    <?$APPLICATION->IncludeComponent("bitrix:system.auth.form", "ajax_auth", Array(
-                        "FORGOT_PASSWORD_URL" => "",	// Страница забытого пароля
-                        "PROFILE_URL" => "",	// Страница профиля
-                        "REGISTER_URL" => "",	// Страница регистрации
-                        "SHOW_ERRORS" => "Y",	// Показывать ошибки
-                    ),
-                        false
-                    );?>
+					<?$APPLICATION->IncludeComponent("bitrix:system.auth.form", "ajax_auth", Array(
+						"FORGOT_PASSWORD_URL" => "",	// Страница забытого пароля
+						"PROFILE_URL" => "",	// Страница профиля
+						"REGISTER_URL" => "",	// Страница регистрации
+						"SHOW_ERRORS" => "Y",	// Показывать ошибки
+					),
+						false
+					);?>
 				</div>
 				<hr>
 				<div class="footer-images">

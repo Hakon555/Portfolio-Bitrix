@@ -1,6 +1,6 @@
 <?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
 <div class="bx-subscribe">
-	<div class="bx-block-title">ÐÀÑÑÛËÊÀ</div>
+	<div class="bx-block-title">Ð ÐÐ¡Ð¡Ð«Ð›ÐšÐ</div>
 	<?$APPLICATION->IncludeComponent("bitrix:sender.subscribe", "", array(
 		"SET_TITLE" => "N"
 	));?>
