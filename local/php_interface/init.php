@@ -12,7 +12,7 @@ class EmailAuth{
 	 */
 	public function changeLoginToEmail($arFields){
 
-		$filter = Array("EMAIL" => $arFields["LOGIN"]);
+		$filter = ["EMAIL" => $arFields["LOGIN"]];
 		$userFromBD = CUser::GetList($by="LAST_NAME", $order="asc", $filter);
 
 		if($user = $userFromBD->GetNext())
