@@ -5,7 +5,7 @@ $(document).ready(() => {
 	
 	const $singupEmail = $('#SUemail');
 	const $singupPass = $('#SUpass');
-	const $singupSub = $('#SUsub');
+	const $formform = $("#SUform");
 	
 	const $newsletterEmailWrong = $(".nl-validate-message");
 	const $singupEmailWrong = $(".su-validate-message-email");
@@ -23,12 +23,16 @@ $(document).ready(() => {
 		}
 		
 	});
-	
-	$singupSub.on('click', ()=>{
-		
+
+	$formform.on('submit', ()=>{
+
+		var $email = 0;
+		var $pass = 0;
+
 		if(validateEmail(String($singupEmail.val()).toLowerCase())){
 			$singupEmail.removeClass('wrong-field');
 			$singupEmailWrong.removeClass('explan-text');
+			$email = 1;
 		}else{
 			$singupEmail.addClass('wrong-field');
 			$singupEmailWrong.addClass('explan-text');
@@ -42,10 +46,17 @@ $(document).ready(() => {
 		}else{
 			$singupPass.removeClass('wrong-field');
 			$singupPassWrong.removeClass('explan-text');
+			$pass = 1;
+		}
+
+		if($email === 1 && $pass === 1){
+			return true;
+		}else{
+			return false;
 		}
 		
 	});	
-	
+
 	function inputValidateNLE() {
 		$newsletterEmail.on('input', ()=>{
 			if(validateEmail(String($newsletterEmail.val()).toLowerCase())){

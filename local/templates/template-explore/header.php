@@ -8,7 +8,7 @@ use Bitrix\Main\Page\Asset;
 <html>
 	<head>
 		<?$APPLICATION->ShowHead()?>
-		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<meta http-equiv="Content-type" content="text/html;" charset="utf-8">
 		<title><?$APPLICATION->ShowTitle()?></title>
 		<?$APPLICATION->SetAdditionalCSS("https://fonts.googleapis.com/css?family=Roboto:300,400,700");?>
 		
@@ -28,7 +28,7 @@ use Bitrix\Main\Page\Asset;
 		<!--For Form Validate-->
 		<?$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/jquery/form_validate/form_validate.css");
 		Asset::getInstance()->addJs(SITE_TEMPLATE_PATH."/jquery/form_validate/form_validate.js");?>
-		
+
 	</head>
 	<body class="body-explore">
 		<?$APPLICATION->ShowPanel();?>
