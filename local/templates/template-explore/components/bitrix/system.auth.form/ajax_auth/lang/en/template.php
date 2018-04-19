@@ -22,5 +22,5 @@ $MESS["auth_form_comp_otp_remember_title"] = "Remember one-time password on this
 $MESS["auth_form_comp_otp_remember"] = "Remember password";
 $MESS["auth_form_comp_auth"] = "Log in";
 $MESS["LOGIN_ERROR"] = "Wrong Email or password";
-$MESS["LOGIN_PATTERN_ERROR"] = "Email must be like email@mail.ru";
+$MESS["LOGIN_PATTERN_ERROR"] = "Not correct Email";
 ?>

@@ -22,5 +22,5 @@ $MESS["auth_form_comp_otp_remember_title"] = "Запомнить код на э�
 $MESS["auth_form_comp_otp_remember"] = "Запомнить код";
 $MESS["auth_form_comp_auth"] = "Авторизация";
 $MESS["LOGIN_ERROR"] = "Неверный Email или пароль";
-$MESS["LOGIN_PATTERN_ERROR"] = "Email должен быть вида email@mail.ru";
+$MESS["LOGIN_PATTERN_ERROR"] = "Некорректный Email";
 ?>
