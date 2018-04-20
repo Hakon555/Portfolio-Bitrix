@@ -18,16 +18,16 @@ use Bitrix\Main\Page\Asset;
 		<?Asset::getInstance()->addJs("https://code.jquery.com/jquery-3.3.1.min.js");?>
 		
 		<!--For tabs-->
-		<?Asset::getInstance()->addJs(SITE_TEMPLATE_PATH."/jquery/tabs/tabs.js");?>
+		<?Asset::getInstance()->addJs(SITE_TEMPLATE_PATH."/js/tabs/tabs.js");?>
 		
 		<!--For carousel-->
-		<?$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/jquery/carousel/carouselengine/initcarousel-1.css");
-		Asset::getInstance()->addJs(SITE_TEMPLATE_PATH."/jquery/carousel/carouselengine/amazingcarousel.js");
+		<?$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/js/carousel/carouselengine/initcarousel-1.css");
+		Asset::getInstance()->addJs(SITE_TEMPLATE_PATH."/js/carousel/carouselengine/amazingcarousel.js");
 		//Asset::getInstance()->addJs(SITE_TEMPLATE_PATH."/jquery/carousel/carouselengine/initcarousel-1.js");?>
 		
 		<!--For Form Validate-->
-		<?$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/jquery/form_validate/form_validate.css");
-		Asset::getInstance()->addJs(SITE_TEMPLATE_PATH."/jquery/form_validate/form_validate.js");?>
+		<?$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/js/form_validate/form_validate.css");
+		Asset::getInstance()->addJs(SITE_TEMPLATE_PATH."/js/form_validate/form_validate.js");?>
 
 	</head>
 	<body class="body-explore">
