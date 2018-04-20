@@ -97,6 +97,6 @@ if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 		</div>
 		
 		<!--For carousel-->
-		<script src="<?=SITE_TEMPLATE_PATH?>/jquery/carousel/carouselengine/initcarousel-1.js"></script>
+		<script src="<?=SITE_TEMPLATE_PATH?>/js/carousel/carouselengine/initcarousel-1.js"></script>
 	</body>
 </html>
