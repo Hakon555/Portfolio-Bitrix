@@ -1,10 +1,15 @@
 <? if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 
-use Bitrix\Iblock;
-
+/**
+ * Class for component, which show new items in slider
+ * Class SliderNewItems
+ */
 class SliderNewItems extends CBitrixComponent{
 
-    private function slider()
+    /**
+     * Function slider() select 9 new items from iblock
+     */
+    protected function slider()
     {
         $rsIBlock = CIBlockElement::GetList(array(), array(
             "IBLOCK_TYPE" => $this->arParams["IBLOCK_TYPE"],
@@ -36,9 +41,10 @@ class SliderNewItems extends CBitrixComponent{
             }
 
             $this->arResult[$i] = [
+                "IBLOCK_TYPE" => $this->arParams["IBLOCK_TYPE"],
                 "ID" => $ob["ID"],
                 "NAME" => $ob["NAME"],
-                "PICTURE_SRC" => CFile::GetPath($ob["DETAIL_PICTURE"]),
+                "PICTURE_SRC" => $ob["DETAIL_PICTURE"],
                 "PRICE" => CurrencyFormat($arPrice["PRICE"], $arPrice["CURRENCY"]),
                 "DETAIL_PAGE_URL" => $ob["DETAIL_PAGE_URL"],
                 "PROPERTIES" => $arProp
@@ -47,6 +53,10 @@ class SliderNewItems extends CBitrixComponent{
 
     }
 
+    /**
+     * Override
+     * @return array
+     */
     public function executeComponent(){
         $this->slider();
         $this->IncludeComponentTemplate();
