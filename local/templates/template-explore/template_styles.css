@@ -196,8 +196,14 @@
     height: 390px;
     background-color: white;
 }
-.featured-items .items img:first-child{
+.featured-items .items .container_for_picture{
+	width: 315px;
+	height: 285px;
+}
+.featured-items .items .container_for_picture img{
 	padding: 25px;
+	display: block;
+	margin: 0 auto 0 auto;
 }
 .featured-items .items .name, .price{
 	text-align: left;

@@ -5,130 +5,15 @@ $APPLICATION->SetPageProperty("NOT_SHOW_NAV_CHAIN", "Y");
 $APPLICATION->SetTitle("");
 ?>
 
-	<div class="featured-items">
-		<h2>FEATURED ITEMS</h2>
-		<p>Let's see featured items!</p>
-
-		<div class="amazingcarousel-container-1">
-			<div id="amazingcarousel-1">
-				<div class="amazingcarousel-list-container">
-					<ul class="amazingcarousel-list">
-						<li class="amazingcarousel-item">
-							<div class="items">
-								<img src="<?=SITE_TEMPLATE_PATH?>/images/item1.jpg" width="265" height="235" alt="">
-								<a class="name" href="/">Vaber Jinish Very Stylish</a>
-								<img class="stars" src="<?=SITE_TEMPLATE_PATH?>/images/star.png">
-								<img class="stars" src="<?=SITE_TEMPLATE_PATH?>/images/star.png">
-								<img class="stars" src="<?=SITE_TEMPLATE_PATH?>/images/star.png">
-								<img class="stars" src="<?=SITE_TEMPLATE_PATH?>/images/star.png">
-								<img class="stars" src="<?=SITE_TEMPLATE_PATH?>/images/star.png">
-								<p class="price">$255</p>
-							</div>
-						</li>
-						<li class="amazingcarousel-item">
-							<div class="items">
-								<img src="<?=SITE_TEMPLATE_PATH?>/images/item2.jpg" width="265" height="235" alt="">
-								<a class="name" href="/">Vaber Jinish Very Stylish</a>
-								<img class="stars" src="<?=SITE_TEMPLATE_PATH?>/images/star.png">
-								<img class="stars" src="<?=SITE_TEMPLATE_PATH?>/images/star.png">
-								<img class="stars" src="<?=SITE_TEMPLATE_PATH?>/images/star.png">
-								<img class="stars" src="<?=SITE_TEMPLATE_PATH?>/images/star.png">
-								<img class="stars" src="<?=SITE_TEMPLATE_PATH?>/images/star.png">
-								<p class="price">$255</p>
-							</div>
-						</li>
-						<li class="amazingcarousel-item">
-							<div class="items">
-								<img src="<?=SITE_TEMPLATE_PATH?>/images/item3.jpg" width="265" height="235" alt="">
-								<a class="name" href="/">Vaber Jinish Very Stylish</a>
-								<img class="stars" src="<?=SITE_TEMPLATE_PATH?>/images/star.png">
-								<img class="stars" src="<?=SITE_TEMPLATE_PATH?>/images/star.png">
-								<img class="stars" src="<?=SITE_TEMPLATE_PATH?>/images/star.png">
-								<img class="stars" src="<?=SITE_TEMPLATE_PATH?>/images/star.png">
-								<img class="stars" src="<?=SITE_TEMPLATE_PATH?>/images/star.png">
-								<p class="price">$255</p>
-							</div>
-						</li>
-						<li class="amazingcarousel-item">
-							<div class="items">
-								<img src="<?=SITE_TEMPLATE_PATH?>/images/item2.jpg" width="265" height="235" alt="">
-								<a class="name" href="/">Vaber Jinish Very Stylish</a>
-								<img class="stars" src="<?=SITE_TEMPLATE_PATH?>/images/star.png">
-								<img class="stars" src="<?=SITE_TEMPLATE_PATH?>/images/star.png">
-								<img class="stars" src="<?=SITE_TEMPLATE_PATH?>/images/star.png">
-								<img class="stars" src="<?=SITE_TEMPLATE_PATH?>/images/star.png">
-								<img class="stars" src="<?=SITE_TEMPLATE_PATH?>/images/star.png">
-								<p class="price">$255</p>
-							</div>
-						</li>
-						<li class="amazingcarousel-item">
-							<div class="items">
-								<img src="<?=SITE_TEMPLATE_PATH?>/images/item1.jpg" width="265" height="235" alt="">
-								<a class="name" href="/">Vaber Jinish Very Stylish</a>
-								<img class="stars" src="<?=SITE_TEMPLATE_PATH?>/images/star.png">
-								<img class="stars" src="<?=SITE_TEMPLATE_PATH?>/images/star.png">
-								<img class="stars" src="<?=SITE_TEMPLATE_PATH?>/images/star.png">
-								<img class="stars" src="<?=SITE_TEMPLATE_PATH?>/images/star.png">
-								<img class="stars" src="<?=SITE_TEMPLATE_PATH?>/images/star.png">
-								<p class="price">$255</p>
-							</div>
-						</li>
-						<li class="amazingcarousel-item">
-							<div class="items">
-								<img src="<?=SITE_TEMPLATE_PATH?>/images/item3.jpg" width="265" height="235" alt="">
-								<a class="name" href="/">Vaber Jinish Very Stylish</a>
-								<img class="stars" src="<?=SITE_TEMPLATE_PATH?>/images/star.png">
-								<img class="stars" src="<?=SITE_TEMPLATE_PATH?>/images/star.png">
-								<img class="stars" src="<?=SITE_TEMPLATE_PATH?>/images/star.png">
-								<img class="stars" src="<?=SITE_TEMPLATE_PATH?>/images/star.png">
-								<img class="stars" src="<?=SITE_TEMPLATE_PATH?>/images/star.png">
-								<p class="price">$255</p>
-							</div>
-						</li>
-						<li class="amazingcarousel-item">
-							<div class="items">
-								<img src="<?=SITE_TEMPLATE_PATH?>/images/item3.jpg" width="265" height="235" alt="">
-								<a class="name" href="/">Vaber Jinish Very Stylish</a>
-								<img class="stars" src="<?=SITE_TEMPLATE_PATH?>/images/star.png">
-								<img class="stars" src="<?=SITE_TEMPLATE_PATH?>/images/star.png">
-								<img class="stars" src="<?=SITE_TEMPLATE_PATH?>/images/star.png">
-								<img class="stars" src="<?=SITE_TEMPLATE_PATH?>/images/star.png">
-								<img class="stars" src="<?=SITE_TEMPLATE_PATH?>/images/star.png">
-								<p class="price">$255</p>
-							</div>
-						</li>
-						<li class="amazingcarousel-item">
-							<div class="items">
-								<img src="<?=SITE_TEMPLATE_PATH?>/images/item2.jpg" width="265" height="235" alt="">
-								<a class="name" href="/">Vaber Jinish Very Stylish</a>
-								<img class="stars" src="<?=SITE_TEMPLATE_PATH?>/images/star.png">
-								<img class="stars" src="<?=SITE_TEMPLATE_PATH?>/images/star.png">
-								<img class="stars" src="<?=SITE_TEMPLATE_PATH?>/images/star.png">
-								<img class="stars" src="<?=SITE_TEMPLATE_PATH?>/images/star.png">
-								<img class="stars" src="<?=SITE_TEMPLATE_PATH?>/images/star.png">
-								<p class="price">$255</p>
-							</div>
-						</li>
-						<li class="amazingcarousel-item">
-							<div class="items">
-								<img src="<?=SITE_TEMPLATE_PATH?>/images/item1.jpg" width="265" height="235" alt="">
-								<a class="name" href="/">Vaber Jinish Very Stylish</a>
-								<img class="stars" src="<?=SITE_TEMPLATE_PATH?>/images/star.png">
-								<img class="stars" src="<?=SITE_TEMPLATE_PATH?>/images/star.png">
-								<img class="stars" src="<?=SITE_TEMPLATE_PATH?>/images/star.png">
-								<img class="stars" src="<?=SITE_TEMPLATE_PATH?>/images/star.png">
-								<img class="stars" src="<?=SITE_TEMPLATE_PATH?>/images/star.png">
-								<p class="price">$255</p>
-							</div>
-						</li>
-					</ul>
-
-				</div>
-
-				<div class="amazingcarousel-nav"></div>
-			</div>
-		</div>
-	</div>
+	<?$APPLICATION->IncludeComponent(
+		"exploreComponents:slider_new_items",
+		".default",
+		array(
+			"COMPONENT_TEMPLATE" => ".default",
+			"IBLOCK_TYPE" => "catalog"
+		),
+		false
+	);?>
 
 	<div class="products-col">
 		<h2>PRODUCTS COLLECTIONS</h2>
