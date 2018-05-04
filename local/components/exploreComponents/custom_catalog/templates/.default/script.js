@@ -49,10 +49,10 @@ $(document).ready(() => {
         }
 
         $.post(
-            $ajPath,
+            $CCajPath,
             {
                 sex: i,
-                ibType: $ibType,
+                ibType: $CCibType,
                 quantity: $quantity
             },
             refreshProducts

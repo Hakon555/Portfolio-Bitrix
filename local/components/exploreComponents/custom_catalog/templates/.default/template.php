@@ -39,8 +39,8 @@
 
 
 <script>
-    const $ajPath = "<?=$componentPath?>/ajax.php";
-    const $ibType = "<?=$arResult["0"]["IBLOCK_TYPE"];?>";
+    const $CCajPath = "<?=$componentPath?>/ajax.php";
+    const $CCibType = "<?=$arResult["0"]["IBLOCK_TYPE"];?>";
 </script>
 
 

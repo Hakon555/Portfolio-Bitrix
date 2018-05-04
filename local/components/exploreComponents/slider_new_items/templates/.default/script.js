@@ -4,7 +4,7 @@ $(document).ready(() => {
     function mouseUp (starSelector, star) {
 
         let $src = $(starSelector).attr("src");
-        $(starSelector).attr("src", $srcChoicePic);
+        $(starSelector).attr("src", $SNIsrcChoicePic);
 
         return $src;
     }
@@ -48,11 +48,11 @@ $(document).ready(() => {
             const $starID = $classStar.substring($classStar.indexOf("_") + 1);
 
             $.post(
-                $ajaxPath,
+                $SNIajaxPath,
                 {
                     rating: $starNumber,
                     item_id: $starID,
-                    ib_type: $ibType
+                    ib_type: $SNIibType
                 },
                 onAjaxSuccess
             );

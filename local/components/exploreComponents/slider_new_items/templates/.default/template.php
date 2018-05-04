@@ -46,7 +46,7 @@
 </div>
 
 <script>
-    const $srcChoicePic = "<?=SITE_TEMPLATE_PATH?>/images/choice_star.png";
-    const $ajaxPath = "<?=$componentPath?>/ajax.php";
-    const $ibType = "<?=$arResult["0"]["IBLOCK_TYPE"];?>";
+    const $SNIsrcChoicePic = "<?=SITE_TEMPLATE_PATH?>/images/choice_star.png";
+    const $SNIajaxPath = "<?=$componentPath?>/ajax.php";
+    const $SNIibType = "<?=$arResult["0"]["IBLOCK_TYPE"];?>";
 </script>
