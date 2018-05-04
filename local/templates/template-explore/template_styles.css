@@ -227,7 +227,7 @@
 	cursor: pointer;
 }
 .products-col {
-	height: 1060px;
+	height: 1110px;
 }
 .products-col p{
 	color: #64759f;
@@ -261,22 +261,10 @@
 	position: relative;
 	display: inline-block;
 	width: 315px;
-	height: 340px;
+	height: 380px;
 	padding: 0;
 	margin: 30px 0 0 25px;
 	background-color: #f1f3f8;
-}
-
-.products:hover:after{
-    content:'';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-	top: 0;
-	left: 0;
-    background-color: #c6cddd;
-	opacity: 0.5;
-	z-index: 5;
 }
 .products .container_for_picture{
 	width: 315px;
@@ -288,10 +276,12 @@
 	margin: 0 auto 0 auto;
 }
 .products p{
+	height: 40px;
 	text-align: left;
     margin: 10px 0 0 25px;
 }
 .products .name{
+	height: 40px;
 	margin-top: 20px;
 	color: #555f76;
 	font-size: 17px;

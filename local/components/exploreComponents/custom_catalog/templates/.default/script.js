@@ -36,7 +36,7 @@ $(document).ready(() => {
 
     function refreshProducts(data) {
         $("div.container-products-area").html(data);
-        $sizeProdCol = 295 + 382 * Math.ceil($("div.products").length / 3);
+        $sizeProdCol = 305 + 410 * Math.ceil($("div.products").length / 3);
         $prodCol.css("height", $sizeProdCol);
     }
 
