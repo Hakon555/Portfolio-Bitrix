@@ -67,12 +67,13 @@ use Bitrix\Main\Page\Asset;
 						<img src="<?=SITE_TEMPLATE_PATH?>/images/arrow.png">
 					</div>
 				</div>
-				<div class="offer_on_image">
-					<h2>Winter<br>Collection</h2>
-					<p>Buy stylish products in our shop!</p>
-					<div class="shop_now">
-						<p>SHOP NOW</p>
-						<img src="<?=SITE_TEMPLATE_PATH?>/images/shop_now.png">
-					</div>
-				</div>
+				<?$APPLICATION->IncludeComponent(
+					"exploreComponents:banner",
+					".default",
+					array(
+						"COMPONENT_TEMPLATE" => ".default",
+						"IBLOCK_TYPE" => "banner"
+					),
+					false
+				);?>
 			</header>

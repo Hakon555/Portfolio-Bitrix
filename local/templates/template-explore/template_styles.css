@@ -36,7 +36,6 @@
 }
 
 .wrapper-explore header {
-	background: url(images/header-image.jpg);
 	width: 100%;
 	height: 781px;
 }
@@ -148,6 +147,7 @@
 	margin: 0;
 	padding: 0;
 	text-align: left;
+	width: 350px;
 }
 .offer_on_image h2 + p {
 	font-size: 23px;
