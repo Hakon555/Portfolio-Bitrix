@@ -443,31 +443,29 @@
 	background-color: #f1f3f8;
 	position: relative;
 }
-.be{
-	width: 49px;
-	height: 49px;
-	position: absolute;
-	left: 310px;
-	top: 325px;
-	background-image: url(images/be.png);
+.blog_news_left .container_for_picture{
+	width: 385px;
+	height: 350px;
+	position: relative;
 }
-.ball{
-	width: 49px;
-	height: 49px;
-	position: absolute;
-	left: 520px;
-	top: 205px;
-	background-image: url(images/ball.png);
+.blog_news_right_up .container_for_picture{
+	width: 590px;
+	height: 230px;
+	position: relative;
 }
-.bird{
-	width: 49px;
-	height: 49px;
-	position: absolute;
-	left: 520px;
-	top: 165px;
-	background-image: url(images/bird.png);
+.blog_news_right_down .container_for_picture{
+	width: 590px;
+	height: 190px;
+	position: relative;
 }
-
+.blog_news img{
+	position: absolute;
+	margin: auto;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+}
 .wrapper-explore footer{
 	width: 1300px;
 	height: 340px;
